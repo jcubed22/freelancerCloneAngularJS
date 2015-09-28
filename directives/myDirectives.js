@@ -1,4 +1,4 @@
-freelanceApp.directive("tilehover", function() {
+freelanceApp.directive("modalDialog", function() {
   return {
-  }
+
 }
