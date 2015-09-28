@@ -1,0 +1,27 @@
+.btn-primary {
+  background-color: #f77d0e !important;
+  color: #f5f6f7;
+  border: 1px solid #f77d0e;
+  text-shadow: 0 -1px transparent !important;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  padding: 4px 16px;
+  background: linear-gradient(to bottom, #fc8c14 0, #f77d0e 100%) !important;
+}
+
+.btn-small {
+    padding: 6px 13px;
+    font-size: 14px !important;
+    border-radius: 3px;
+}
+
+
+.tile {
+  height: 100px;
+  width: 100px;
+  background: tomato;
+}
+
+.tile:hover {
+  background:linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.45));
+}
