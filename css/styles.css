@@ -15,17 +15,81 @@
     border-radius: 3px;
 }
 
+.yellow {
+  background-color: yellow;
+  font-style: underline;
+}
 
-.tile {
-  height: 100px;
-  width: 100px;
-  background: tomato;
-  cursor: pointer;
-  position: absolute;
-  opacity: .5;
-  -webkit-transition: all 0.45s ease-in-out;
-  -moz-transition: all 0.45s ease-in-out;
-  -o-transition: all 0.45s ease-in-out;
-  -ms-transition: all 0.45s ease-in-out;
-  transition: all 0.45s ease-in-out;
+body {
+/*height: 10000px;*/
+font-family: "Lato";
+}
+
+h1, h2, h3, h4 {
+padding: 0px;
+margin: 0px;
+}
+
+li img {
+  height: 220px;
+  width: 220px;
+}
+
+.caption-style-1 {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+.caption-style-1 li {
+float: left;
+padding: 0px;
+position: relative;
+overflow: hidden;
+}
+
+.caption-style-1 li:hover .caption {
+opacity: 1;
+}
+
+.caption-style-1 img {
+margin: 0px;
+padding: 0px;
+padding-top: 10px;
+float: left;
+z-index: 4;
+}
+
+.caption-style-1 .caption {
+cursor: pointer;
+position: absolute;
+opacity: 0;
+-webkit-transition: all 0.45s ease-in-out;
+-moz-transition: all 0.45s ease-in-out;
+-o-transition: all 0.45s ease-in-out;
+-ms-transition: all 0.45s ease-in-out;
+transition: all 0.45s ease-in-out;
+}
+
+.caption-style-1 .blur {
+background-color: rgba(0,0,0,0.65);
+height: 320px;
+width: 320px;
+z-index: 5;
+position: absolute;
+}
+
+.caption-style-1 .caption-text h1 {
+text-transform: uppercase;
+font-size: 24px;
+}
+
+.caption-style-1 .caption-text {
+z-index: 10;
+color: #fff;
+position: absolute;
+width: 320px;
+height: 320px;
+text-align: center;
+top: 100px;
 }

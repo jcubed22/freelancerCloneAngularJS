@@ -1,4 +1,4 @@
-var freelanceApp = angular.module("freelanceApp", ['ui.router']);
+var freelanceApp = angular.module("freelanceApp", ['ui.router', 'ngAnimate', 'ui.bootstrap']);
 
 freelanceApp.config(function($stateProvider, $urlRouterProvider){
   $stateProvider.state('home', {
@@ -9,7 +9,8 @@ freelanceApp.config(function($stateProvider, $urlRouterProvider){
 
       },
       "body": {
-        templateUrl: "partials/home.html"
+        templateUrl: "partials/home.html",
+        controller: "fancyCtrl"
       }
     }
   })
